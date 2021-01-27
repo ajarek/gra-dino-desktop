@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: darkseagreen;
+}
+
+.dino {
+    width: 100px;
+    height: 100px;
+    background: url('dino.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 650px;
+
+}
+
+.active {
+    bottom: 200px
+}
+
+.krzak {
+    width: 100px;
+    height: 100px;
+    background: url('kaktus.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 1200px;
+    transition: left 6s;
+}
+
+.wynik {
+    font-size: 2rem;
+    text-align: center;
+}
